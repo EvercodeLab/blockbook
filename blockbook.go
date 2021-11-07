@@ -208,10 +208,6 @@ func mainWithExitCode() int {
 	}
 
 	if internalState.DbState != common.DbStateClosed {
-		//if internalState.DbState == common.DbStateInconsistent {
-		//	glog.Error("internalState: database is in inconsistent state and cannot be used")
-		//	return exitCodeFatal
-		//}
 		glog.Warning("internalState: database was left in open state, possibly previous ungraceful shutdown")
 	}
 
