@@ -9,6 +9,7 @@
     "backend_rpc": 18036,
     "backend_message_queue": 0,
     "backend_p2p": 48336,
+    "backend_http": 18136,
     "blockbook_internal": 19036,
     "blockbook_public": 19136
   },
